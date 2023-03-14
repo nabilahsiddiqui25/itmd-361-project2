@@ -22,19 +22,25 @@ h2{
   font-family: 'Georgia', serif;
   padding: 0px;
   font-size:20px;
-  color:#00ced1;
-  margin-left: 30px;
+  /* #00ced1*/
+  color:#4B0082;
+  margin-left: 35px;
   margin-bottom:10px;
+  margin-top:15px;
 }
+
+/*Programming Languages, Technical & Productivity Skills, Leadership Skills*/
+
 
 h3 {
   font-family: 'Georgia', serif;
   padding: 0px;
   font-size:20px;
-  color:#00ced1;
+  /*#00ced1*/
+  color:#9370DB;
   margin: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
   margin-left: 30px;
 }
 
@@ -46,6 +52,7 @@ ul.a{
   color:black;
   margin-left: 30px; 
   margin-bottom: 0px;
+  margin-top:0px;
 }
 
 h4{
@@ -53,7 +60,8 @@ h4{
   padding: 0px;
   margin: 25px;
   font-size: 18px;
-  color:black;
+  color:mediumpurple;
+  margin-top:10px;
 }
 
 h5 {
@@ -70,7 +78,10 @@ p {
   margin: 0px;
   font-size: 18px;
   color:black;
-  margin-left: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  margin-top:5px;
 }
 
 h1 {
