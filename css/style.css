@@ -3,6 +3,7 @@ body{
   background-attachment:fixed;
   width:100%;
   height:100%;
+  margin: 0;
 }
 
 img {
@@ -14,66 +15,67 @@ small {
   color: rgba(0, 206, 209);
 }
 
+
 ul.a {
   font-family: Georgia, serif;
   padding: 50px;
-  margin: 20px;
+  margin: 0px;
   font-size: 18px;
   color:black;
-  margin-bottom: -100px;
+  /*margin-bottom: -100px;*/
 }
 
 h4 {
   font-family: 'Georgia', serif;
-  padding: 50px;
-  margin: 20px;
+  padding: 0px;
+  margin: 0px;
   font-size:20px;
   color:black;
-  margin-bottom: -100px;
+  /*margin-bottom: -100px;*/
 }
 
 h5 {
   font-family: 'Georgia', serif;
   padding: 50px;
-  margin: 20px;
+  margin: 0px;
   font-size:20px;
   color:black;
-  margin-bottom: -100px;
+  /*margin-bottom: -100px;*/
 }
 
 h3 {
   font-family: 'Georgia', serif;
   padding: 50px;
-  margin: 20px;
+  margin: 0px;
   font-size:20px;
   color:#00ced1 ;
-  margin-bottom: -100px;
+  /*margin-bottom: -100px;*/
 }
 
 p {
   font-family: 'Georgia', serif;
   padding: 50px;
-  margin: 20px;
+  margin: 0px;
   font-size:18px;
   color:black;
-  margin-bottom: -100px;
+  /*margin-bottom: -100px;*/
 }
 
 h1 {
   font-family: 'Abel';
   font-size: 41px;
-  margin-bottom: -100px;
+  /*margin-bottom: -100px;*/
   padding: 50px;
-  margin: 0;
+  margin: 0px;
 }
 
 h2 {
   font-family: Georgia, serif;
   padding: 50px;
-  margin: 20px;
+  margin: 0px;
   font-size: 20px;
   color:#00ced1 ;
-  margin-bottom: -100px;
+  /*margin-bottom: -100px;*/
 }
 
 .center {
@@ -84,7 +86,7 @@ section {
   height: 100vh;
   font-family: 'Roboto', sans-serif;
   padding: 0;
-  margin: 0;
+  margin: 0px;
   font-size: 22px;
 }
 
@@ -232,5 +234,4 @@ video {
   margin-top:100px;
   width:320px;
   height:240px;
-
 }
