@@ -1,5 +1,6 @@
 body{
-  background: #AFEEEE;
+  background: #89CFF0;
+  /*#AFEEEE */
   background-attachment:fixed;
   width:100%;
   height:100%;
@@ -23,7 +24,7 @@ h2{
   padding: 0px;
   font-size:20px;
   /* #00ced1*/
-  color:#4B0082;
+  color:royalblue;
   margin-left: 35px;
   margin-bottom:10px;
   margin-top:15px;
@@ -85,10 +86,12 @@ p {
 }
 
 h1 {
-  font-family: 'Abel';
+  font-family: Georgia, serif;
   font-size: 41px;
   padding: 0px;
-  margin: 25px
+  margin: 25px;
+  text-align: center;
+  color: #3333A2;
 }
 
 .center {
@@ -105,12 +108,9 @@ section {
 
 /* NAVIGATION */
 nav {
-  /*width: 80%;*/
-  /*margin: 0 auto;*/
   background: #fff;
   padding: 0px;
-  /*#dedede*/
-  box-shadow: 0px 5px 0px #00ced1;
+  box-shadow: 0px 5px 0px #d8ecf3;
   margin: 0;
   box-sizing: border-box;
   list-style: none;
@@ -122,11 +122,12 @@ nav ul {
 nav ul li {
   display: inline-block;
 }
+
 nav ul li a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: #40E0D0;
+  color: #3ca2c3;
   font-weight: 800;
   text-transform: uppercase;
   margin: 0 10px;
@@ -137,7 +138,7 @@ nav ul li a:before {
   transition: all .5s;
 }
 nav ul li a:hover {
-  color: #009292;
+  color: #0c2027;
 }
 
 /* Circle */
@@ -208,27 +209,6 @@ nav.circle ul li a:hover:after {
     right: 0;
     margin: auto;
     border-radius: 0;
-  }
-}
-
-
-.glow {
-  font-size: 50px;
-  color: #6C2DC7;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-/*#e60073 is a dark-pink shade. */
-/*#ff4da6 is brilliant rose.*/
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #00ced1, 0 0 20px #00ced1, 0 0 30px #871F78, 0 0 40px #871F78, 0 0 50px #871F78, 0 0 60px #871F78, 0 0 70px #871F78;
-  }
-  to {
-    text-shadow: 0 0 20px #00ced1, 0 0 30px #CBC3E3, 0 0 40px #CBC3E3, 0 0 50px #CBC3E3, 0 0 60px #CBC3E3, 0 0 70px #CBC3E3, 0 0 80px #CBC3E3
   }
 }
 
