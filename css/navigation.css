@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ADD8E6; /* Set desired background color */
+  height: 60px; /* Set desired height */
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+nav ul li {
+  margin-right: 15px; /* Set desired spacing between navigation items */
+}
+
+nav ul li a {
+  color: #4B0082; /* Set desired text color */
+  text-decoration: none;
+  padding: 30px; /* Set desired padding */
+  transition: 0.3s ease; /* Add desired transition effect */
+}
+
+nav ul li a:hover {
+  color: #4B0082; /* Set desired hover text color */
+}
+
+nav li:hover {
+  background-color: whitesmoke;
+  border : 10px solid #299ba1;
+}
+nav li a:hover {
+  color: #299ba1;
+}
+
+.container {
+  overflow: auto;
+}
