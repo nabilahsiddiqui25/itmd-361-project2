@@ -149,7 +149,7 @@ h2{
   color:royalblue;
   margin-left: 35px;
   margin-bottom:10px;
-  margin-top:15px;
+  margin-top:0px;
   position: sticky;
 }
 
@@ -200,15 +200,28 @@ ul.a{
 video {
   display:block;
   margin:0 auto;
+  margin-top: 0px;
   width:320px;
   height:240px;
   position: sticky;
 }
 
 .image1{
+  margin-top: 0px;
   display:block;
   margin:0 auto;
   width:320px;
   height:240px;
   position: sticky;
+}
+
+/*add 5 style attributes*/
+
+#map {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
