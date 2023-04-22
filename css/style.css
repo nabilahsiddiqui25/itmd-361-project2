@@ -29,7 +29,7 @@ nav ul li a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: indigo;
+  color: darkgreen;
   font-weight: 800;
   text-transform: uppercase;
   margin: 0 10px;
@@ -40,7 +40,9 @@ nav ul li a:before {
   transition: all .5s;
 }
 nav ul li a:hover {
-  color: #4B0082;
+  /*
+  color: darkgreen;*/
+  color: black;
 }
 
 /* Circle */
@@ -115,7 +117,7 @@ nav.circle ul li a:hover:after {
 }
 
 body{
-  background: #89CFF0;
+  background: #E3FBE3;
   position: sticky;
 }
 
@@ -137,7 +139,8 @@ h1{
   padding: 0px;
   margin: 25px;
   text-align: center;
-  color: #3333A2;
+  /*color: #3333A2;*/
+  color: darkgreen;
 }
 
 h2{
@@ -145,7 +148,8 @@ h2{
   padding: 0px;
   font-size:20px;
   /* #00ced1*/
-  color:royalblue;
+  /*color:royalblue;*/
+  color: darkgreen;
   margin-left: 35px;
   margin-bottom:10px;
   margin-top:10px;
@@ -157,7 +161,8 @@ h3 {
   padding: 0px;
   font-size:20px;
   /*#00ced1*/
-  color:#9370DB;
+  /*#9370DB*/
+  color:darkgreen;
   margin: 0px;
   margin-top: 5px;
   margin-bottom: 0px;
