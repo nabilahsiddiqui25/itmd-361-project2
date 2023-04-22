@@ -62,7 +62,7 @@ addMarker({
   // Function to add additional markers
   function addMarker(coords) {
     var marker = new google.maps.Marker({
-      position: props.coords,
+      position: coords,
       map: map,
       //icon: props.iconImage
     });

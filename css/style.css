@@ -225,3 +225,43 @@ video {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
+
+/*
+img[name="slide"] {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+}
+*/
+
+/* Slideshow */
+/*.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+}
+
+.slide-image {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  height: auto;
+}*/
+
+img[name="slide"] {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-top: 20px;
+
+}
+
+

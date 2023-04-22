@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- use script src here as well -->
+  <!-- map.html, map.js -->
+  <script src="js/slideshow.js"></script>
 </head>
 <body>
   <header>
@@ -20,7 +23,17 @@
     </nav>
     <h1>How to Solve a 2x2 Rubik's Cube</h1>
     <p>Please reference the solution guide from the official <a href="https://rubiks.com/en-US/solve-it/">Rubik's Cube website</a></p>
-    <section>
+    <!--<div class="slideshow-container">
+      <img class="mySlides" src="media/rubiks1a.png">
+      <img class="mySlides" src="media/rubiks2.png">
+      <img class="mySlides" src="media/rubiks3.png">
+      <img class="mySlides" src="media/rubiks4.png">
+      <img class="mySlides" src="media/rubiks5.png">
+    </div> -->
+    <div class="slideshow1">
+      <img name="slide" width="400" height="300">
+    </div>
+    <!--<img name = "slide" width="400" height="200">-->
       <h2>SOLVE THE TOP LAYER: 1ST AND SECOND CORNERS</h2>
       <h3>HOLDING YOUR RUBIK'S MINI</h3>
       <p><img src="media/cube.jpeg" alt="Cube" style="width:200px;height:200px;margin-left:15px;"></p>
@@ -30,8 +43,6 @@
         <li>The RED tile will be on the FRONT face.</li>
         <li>The BLUE tile will be on the RIGHT face.</li>
       </ul>
-    </section>
-    <section>
       <h4>Action 1</h4>
       <p>Find the corner piece that has a WHITE tile, a BLUE tile and an ORANGE tile.</p>
       <ul class="a">
@@ -39,26 +50,16 @@
         <li>If it is in the top layer, it will be in one of the locations here. You will be moving this corner to the bottom layer so that you can then place it correctly in the top. Go to Action 2 on page 12.</li>
         <li>If the corner piece with WHITE-BLUE-ORANGE corner is in the bottom layer, go to Action 3 on page 13.</li>
       </ul>
-    </section>
-    <section>
       <h4>Action 2</h4>
       <p>Hold your Rubik's Mini to match one of the pictures below (with the WHITE-BLUE-ORANGE corner on the right).</p>
       <p>Follow this algorithm to move the WHITE-BLUE-ORANGE corner from the top layer to the bottom layer. Then move to Action 3 on page 13.</p>
-    </section>
-    <section>
       <h3>HOLDING YOUR RUBIK'S MINI</h3>
       <p>Now hold your Rubik's Mini so the white tile with the Rubik's logo is facing the ceiling and the WHITE-BLUE-RED corner is on the LEFT.</p>
-    </section>
-    <section>
       <h4>Action 3</h4>
       <p>Twist the DOWN face until your Rubik's Mini matches one of the pictures below.</p>
-    </section>
-    <section>
       <h2>SOLVE THE TOP LAYER: 3RD CORNER</h2>
       <h3>HOLDING YOUR RUBIK'S MINI</h3>
       <p>Begin by holding your Rubik's Mini so that the WHITE-BLUE-ORANGE corner is on the LEFT. The logo is still facing the ceiling.</p>
-    </section>
-    <section>
       <h4>Action 1</h4>
       <p>Find the corner piece that has a WHITE tile, a GREEN tile and an ORANGE tile.</p>
       <ul class="a">
@@ -66,12 +67,8 @@
         <li>If it is in the top layer, go to Action 2.</li>
         <li>If the WHITE-GREEN-ORANGE corner is in the bottom layer, go to Action 3 on the next page.</li>
       </ul>
-    </section>
-    <section>
       <h4>Action 2</h4>
       <p>Hold your Rubik's Mini to match one of the pictures below and follow the directions to move the WHITE-GREEN-ORANGE corner to the bottom layer.</p>
-    </section>
-    <section>
       <h4>Action 3</h4>
       <p>Twist the DOWN face until your Rubik's Mini matches one of the pictures below.</p>
       <p>You've solved the third corner!</p>
@@ -85,71 +82,44 @@
         <li>If it is in the top layer, go to Action 2 on page 18.</li>
         <li>If the WHITE-GREEN-RED corner is in the bottom layer, go to Action 3 on page 18.</li>
       </ul>
-    </section>
-    <section>
       <h4>Action 2</h4>
       <p>Holding your Rubik's Mini to match one of the pictures below and follow the directions to move the WHITE-GREEN-RED corner to the bottom layer.</p>
-    </section>
-    <section>
       <h4>Action 3</h4>
       <p>Twist the DOWN face until your Rubik's Mini matches one of the picutres on page 19.</p>
       <p>You've solved the top layer!</p>
-    </section>
     <h2>SOLVE THE SECOND LAYER: MAKE THE YELLOW FACE</h2>
     <h3>HOLDING YOUR RUBIK'S MINI</h3>
     <p>Begin by holding your Rubik's Mini so the WHITE face is on the bottom (DOWN face).</p>
-    <section>
       <h4>Action 1</h4>
       <p>Match the UP face to one of the pictures below:</p>
-    </section>
-    <section>
       <h4>Action 2</h4>
       <p>Follow this algorithm:</p>
-    </section>
-    <section>
       <h5>CHANT</h5>
       <p>The words underneath the turns are a chant to help you remember the algorithm. Notice the RIGHT face turns in opposite directions every other time and the UP face always turns clockwise.</p>
-    </section>
-    <section>
       <h4>Action 3</h4>
       <p>If you do not have all YELLOW tiles on the UP face, rematch your Rubik's Mini to one of the picutres in Action 1 on page 20 and repeat the algorithm in Action 2. You may need to do this 2 or 3 times.</p>
       <p>If you have all Yellow on the UP face, go to the next page.</p>
       <p>Continue to the next step 'Place the Yellow Corners Correctly' on the following page</p>
-    </section>
     <h2>SOLVE THE SECOND LAYER: PLACE THE YELLOW CORNERS CORRECTLY</h2>
-    <section>
       <h3>HOLDING YOUR RUBIK'S MINI</h3>
       <p>Begin by holding your Rubik's Mini with YELLOW on the UP face.</p>
-    </section>
-    <section>
       <h4>Action 1</h4>
       <p>Twist the top layer until the colored tiles of two corners match the bottom layer.</p>
       <p>Look at the faces of your Rubik's Mini. Are all the colors like this?</p>
       <p>Yeah! You've solved the Rubik's Mini!</p>
       <p>If your Rubik's Mini is not solved then got o Action 2 on page 24.</p>
-    </section>
-    <section>
       <h4>Action 2</h4>
       <p>Hold your Rubik's Mini so it matches one of the pictures.</p>
       <p>Red arrows show the conrers that need to swap.</p>
-    </section>
-    <section>
       <h4>Action 3</h4>
       <p>Follow this algorithm.</p>
-    </section>
-    <section>
       <h5>CHANT</h5>
       <p>The words underneath the turns are a chant to help you remember the algorithm.</p>
-    </section>
-    <section>
       <h4>Action 4</h4>
       <p>If your Rubik's Mini is not solved, you need to repeat Actions 1-3.</p>
-    </section>
-    <section>
       <img src="media/congrats.jpeg" alt="congrats" style="display: block; margin: 0 auto; margin-top: 0; width: 320px; height: 240px;">
       <h2>CONGRATULATIONS!</h2>
       <h3>You have solved the Rubik's Mini!</h3>
-    </section>
   </header>
 </body>
 </html>
