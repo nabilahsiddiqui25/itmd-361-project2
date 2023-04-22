@@ -129,8 +129,8 @@ p {
   margin-right: 50px;
   margin-bottom: 0px;
   margin-top:5px;
-  position: sticky;
 }
+
 h1{
   font-family: Georgia, serif;
   font-size: 41px;
@@ -138,7 +138,6 @@ h1{
   margin: 25px;
   text-align: center;
   color: #3333A2;
-  position: sticky;
 }
 
 h2{
@@ -149,7 +148,7 @@ h2{
   color:royalblue;
   margin-left: 35px;
   margin-bottom:10px;
-  margin-top:0px;
+  margin-top:10px;
   position: sticky;
 }
 
@@ -264,4 +263,12 @@ img[name="slide"] {
 
 }
 
+/*for the images*/
+.img-small {
+  width: 20%;
+  float: right;
+  margin-right: 50px;
+  vertical-align: top;
+  margin-top: -100px;
+}
 
