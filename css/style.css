@@ -298,7 +298,7 @@ img[name="slide"] {
 }
 
 .slideshow img.active {
-  text-align:;
+  text-align: center;
   opacity: 1;
 }
 
