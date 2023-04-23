@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nabilah Siddiqui</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
@@ -23,17 +24,71 @@
     </nav>
     <h1>Rubik's Cube History</h1>
     <p>Here's a brief overview of the <a href="https://ruwix.com/the-rubiks-cube/history-rubiks-cube/important-dates-timeline/">history</a> of the Rubik's Cube!</p>
-    <div class="slideshow">
+    <!-- adding slideshow html code -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="media/rubiks1a.png" alt="Slide 1" style="width:50%">
+        <div class="text">Step 1</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="media/rubiks2.png" alt="Slide 2" style="width:50%">
+        <div class="text">Step 2</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="media/rubiks3.png" alt="Slide 3" style="width:50%">
+        <div class="text">Step 3</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="media/rubiks4.png" alt="Slide 4" style="width:50%">
+        <div class="text">Step 4</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="media/rubiks5.png" alt="Slide 5" style="width:50%">
+        <div class="text">Step 5</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <!--<div class="slideshow">
       <img src="media/rubiks1a.png" alt="Slide 1">
       <img src="media/rubiks2.png" alt="Slide 2">
       <img src="media/rubiks3.png" alt="Slide 3">
       <img src="media/rubiks4.png" alt="Slide 4">
       <img src="media/rubiks5.png" alt="Slide 5">
     </div>
+  -->
     <!--
     <div class="slideshow1">
       <img name="slide" alt="slide picture" width="400" height="300">
     </div>-->
+    <script>
+      showSlides(1);
+    </script>
+    
     <h2>1974</h2>
     <p>Erno Rubik created numerous prototypes and versions of the cube before completing his final design, the 3×3 Rubik’s Cube, in 1974. Constructed primarily out of wood, the cube was relatively large and had corners that had to be cut down due to its size. During the creation process, Rubik came to the realization that he was unable to solve the puzzle he had invented, and spent a month devising a solution.</p>
     <h2>1975</h2>
