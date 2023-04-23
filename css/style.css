@@ -129,7 +129,7 @@ p {
   color:black;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   margin-top:5px;
 }
 
@@ -139,7 +139,6 @@ h1{
   padding: 0px;
   margin: 25px;
   text-align: center;
-  /*color: #3333A2;*/
   color: darkgreen;
 }
 
@@ -147,8 +146,6 @@ h2{
   font-family: 'Georgia', serif;
   padding: 0px;
   font-size:20px;
-  /* #00ced1*/
-  /*color:royalblue;*/
   color: darkgreen;
   margin-left: 35px;
   margin-bottom:10px;
