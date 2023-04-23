@@ -1,5 +1,5 @@
 
-  //adding code for the slideshow of rubiks cube images
+  /*//adding code for the slideshow of rubiks cube images
   var i = 0; //Starting point
   //array of images
   var images = [];
@@ -27,4 +27,17 @@
     setTimeout("changeImg()", time);
   }
 
-  window.onload = changeImg;
+  window.onload = changeImg;*/
+
+
+const images = document.querySelectorAll(".slideshow img");
+let currentImageIndex = 0;
+const maxImageIndex = images.length - 1;
+
+function nextImage() {
+  images[currentImageIndex].classList.remove("active");
+  currentImageIndex = (currentImageIndex === maxImageIndex) ? 0 : currentImageIndex + 1;
+  images[currentImageIndex].classList.add("active");
+}
+
+setInterval(nextImage, 3000);
